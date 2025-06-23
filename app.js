@@ -96,7 +96,12 @@ Exercise 6
 Solve Exercise 6 here:
 */
 
-// for (let i = 0, i )
+for (let i = 0; i < game.length; i++) {
+  if (game[i].difficulty < 3)
+    game.completed = true;
+}
+
+console.log(game.completed);
 
 /*
 Exercise 7
