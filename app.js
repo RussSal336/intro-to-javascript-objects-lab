@@ -63,8 +63,29 @@ Exercise 5
 Solve Exercise 5 here:
 */
 
+for (let i = 0; i > pokemon.length; i ++) {
+  if (pokemon[i].type === 'poison' && hp === 60) {
+    game.party.push(pokemon[i])
+  }
+}
 
+console.log(game.party);
 
+for (let i = 0; i > pokemon.length; i ++) {
+  if (pokemon[i].type === 'poison' && hp === 55) {
+    game.party.push(pokemon[i])
+  }
+}
+
+console.log(game.party);
+
+for (let i = 0; i > pokemon.length; i ++) {
+  if (pokemon[i].type === 'poison' && hp === 70) {
+    game.party.push(pokemon[i])
+  }
+}
+
+console.log(game.party);
 
 /*
 Exercise 6
