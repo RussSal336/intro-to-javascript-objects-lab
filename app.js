@@ -80,7 +80,7 @@ for (let i = 0; i < pokemon.length; i ++) {
 console.log(game.party);
 
 for (let i = 0; i < pokemon.length; i ++) {
-  if (pokemon[i].type === 'poison' && pokemon[i].hp === 70) {
+  if (pokemon[i].type === 'poison' && pokemon[i].hp === 80) {
     game.party.push(pokemon[i])
   }
 }
@@ -120,6 +120,36 @@ More Hints: The existing starter Pokemon will be *replaced* in your party with t
 Solve Exercise 7 here:
 */
 
+for (let i = 0; i < pokemon.length; i++) {
+  if (pokemon[i].name === 'Arbok')
+    pokemon.name === 'Ekans'
+}
+console.log(game.party);
+
+for (let i = 0; i < pokemon.length; i++) {
+  if (pokemon[i].name === 'Charmander')
+    pokemon.name === 'Charmeleon'
+}
+console.log(game.party);
+
+for (let i = 0; i < pokemon.length; i++) {
+  if (pokemon[i].name === 'Nidoran')
+    pokemon.name === 'Nidorina'
+}
+console.log(game.party);
+
+for (let i = 0; i < pokemon.length; i++) {
+  if (pokemon[i].name === 'Grimer')
+    pokemon.name === 'Muk'
+}
+console.log(game.party);
+
+/* Charmander --> Charmeleon
+Arbok --> Ekans
+Nidoran --> Nidorina
+Grimer --> Muk
+*/
+
 
 /*
 Exercise 8
@@ -128,6 +158,7 @@ Exercise 8
 
 Solve Exercise 8 here:
 */
+
 
 
 /*
