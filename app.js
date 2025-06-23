@@ -144,6 +144,8 @@ for (let i = 0; i < pokemon.length; i++) {
 }
 console.log(game.party);
 
+const instructorPleaseRead = 'Due to another wifi outage I was sadly unable to access the TA hours on Sunday. I really tried my best with what I could understand. Ill just have to come back to this at a later date with a better understanding.'
+
 /* Charmander --> Charmeleon
 Arbok --> Ekans
 Nidoran --> Nidorina
